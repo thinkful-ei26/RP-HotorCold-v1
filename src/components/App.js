@@ -3,8 +3,8 @@ import './App.css';
 import Header from './Header';
 import GuessCounter from './GuessCounter';
 import Guesses from './Guesses';
-import GuessMonitor from './GuessMonitor';
-import GuessResponse from './GuessResponse';
+import Feedback from './Feedback';
+import GuessList from './GuessList';
 
 
 
@@ -14,6 +14,10 @@ export default function App() {
       <header>
         <Header />
       </header>
+      <Feedback />
+      <Guesses />
+      <GuessCounter />
+      <GuessList />
     </div>
   )
 }
